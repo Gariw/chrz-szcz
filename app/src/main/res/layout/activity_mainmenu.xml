@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50a439">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nazwa"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/trening"
+        android:background="#000000"
+        android:allowUndo="false"
+        tools:targetApi="m"
+        android:padding="12dp"
+        android:text="@string/trening"
+        android:textColor="#05ec05"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:onClick="test" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/slowniczek"
+        android:background="#000000"
+        android:allowUndo="false"
+        tools:targetApi="m"
+        android:padding="12dp"
+        android:text="@string/slowniczek"
+        android:textColor="#05ec05"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick= "slowniczek"/>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/reguly"
+        android:background="#000000"
+        android:allowUndo="false"
+        tools:targetApi="m"
+        android:padding="12dp"
+        android:text="@string/reguly"
+        android:textColor="#05ec05"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:onClick="reguly"/>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/theend"
+        android:background="#000000"
+        android:allowUndo="false"
+        tools:targetApi="m"
+        android:padding="12dp"
+        android:text="@string/wyjscie"
+        android:textColor="#05ec05"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:onClick="finito"/>
+</LinearLayout>

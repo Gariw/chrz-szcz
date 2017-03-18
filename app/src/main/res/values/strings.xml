@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chrząszcz</string>
+    <string name="nazwa">CHRZĄSZCZ</string>
+    <string name="trening">TRENING</string>
+    <string name="test">TEST</string>
+    <string name="wroc">WRÓĆ</string>
+    <string name="slowniczek">SŁOWNICZEK</string>
+    <string name="reguly">REGUŁY</string>
+    <string name="wyjscie">WYJŚCIE</string>
+    <string name="poziom_zaawansowania">Poziom zaawansowania:</string>
+</resources>

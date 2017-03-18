@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50a439"
+    android:weightSum="1">
+
+    <Button
+        android:text="OPCJE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:gravity="center_vertical"
+        android:foregroundGravity="top"
+        android:layout_marginLeft="0dp"
+        android:elevation="0dp"
+        android:textSize="12sp"
+        android:foreground="@color/colorPrimary"
+        android:background="@drawable/button_border"
+        android:textAlignment="center"
+        android:onClick="showDialog"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="0.26"
+        android:stretchColumns="*"
+        android:id="@+id/tableChoice">
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableWords"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_marginTop ="10dp"
+        android:layout_gravity="center">
+
+    </TableLayout>
+
+    <Button
+        android:text="SPRAWDŹ"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_spr_dal"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:onClick="spr_dal"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:text="Wstecz"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wstecz"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:onClick="wstecz"
+        android:layout_marginTop="5dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button" type="id">idbut</item>
+    <item name="tableForButtons" type="id">aaa</item>
+    <item name="opcje_dialog" type="id">opcjed</item>
+</resources>

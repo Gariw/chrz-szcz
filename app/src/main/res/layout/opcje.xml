@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@id/opcje_dialog"
+    android:weightSum="1"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:text="opcje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcje"
+        android:layout_weight="0.11"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:text="Wybierz:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/poziom"
+        android:layout_weight="0.02"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"/>
+
+    <RadioGroup
+        android:id="@+id/pozioms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="0.03"
+        android:gravity="center_horizontal"
+        android:background="@android:color/holo_green_dark"
+        android:weightSum="1">
+
+        <RadioButton
+             android:text="początkujący"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/poziom1"/>
+
+        <RadioButton
+            android:text="normalny"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/poziom2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05" />
+
+        <RadioButton
+            android:text="zaawansowany"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/poziom3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.07"/>
+
+        <RadioButton
+            android:text="Słówka z u/ó"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/s_u"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:text="Słówka z h/ch"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/s_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:text="Słówka z ż/rz"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/s_z"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <Button
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcje_ok"
+        android:background="@android:color/holo_blue_light"
+        android:layout_weight="0.11" />
+</LinearLayout>
